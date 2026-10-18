@@ -51,9 +51,8 @@ abre el túnel.
 2. En el panel derecho, *Settings*:
    - **Accelerator → GPU T4 x2** (la sesión se reinicia al cambiarlo)
    - **Internet → On** (el notebook descarga de GitHub y de Hugging Face; sin esto no hace nada)
-3. Pegar el contenido de [`notebook/kaggle_llm.py`](notebook/kaggle_llm.py) en una celda y
-   ejecutarla (o importar [`notebook/kaggle_llm.ipynb`](notebook/kaggle_llm.ipynb) desde
-   *File → Import Notebook*).
+3. Subir [`notebook/kaggle_llm.ipynb`](notebook/kaggle_llm.ipynb) con *File → Import Notebook*
+   y ejecutar la celda (también vale abrirlo en GitHub y pegar el código en una celda en blanco).
 4. Esperar la primera descarga: ~23 GB entre modelo y proyector.
 5. Al terminar imprime la URL:
 
